@@ -1,0 +1,52 @@
+:root{
+    --cor01: #F7AD45;
+    --cor02: #B60303;
+    --cor03: #7C1400;
+    --cor04: #9D9D9D;
+}
+
+body{
+
+    background-color: var(--cor04);
+
+
+}
+
+.bg-body-tertiary{
+    background-color: #9e0000!important;
+    color: white;
+
+}
+
+.navbar-brand{
+    border-radius: 50%;
+    border:solid;
+    color: white;
+    
+}
+
+.card-img-top {
+    background-color: var(--cor01);
+}
+
+.card-text{
+    text-align: center;
+    
+    
+}
+
+.destaque{
+    font-weight: bold;
+}
+
+.cards-competidores{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+
+    margin-top: 2%;
+}
+
+.card{
+    margin: 1%;
+}
